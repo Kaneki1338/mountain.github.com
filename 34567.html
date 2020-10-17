@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Untitled-1.css">
+    <title>Mountain</title>
+</head>
+<body>
+    <div class="imge">
+        <header>
+            <nav>
+                <ul>
+                <li class="li"><a class="a" href="#1">О нас</a></li>
+                <li class="li"><a class="a" href="#2">Туры</a>
+                <ul>
+                <li class="li"><a class="a" href="#">Белуха</a></li>
+                <li class="li"><a class="a" href="#">Эльбрус</a></li>
+                <li class="li"><a class="a" href="#">Килиманджаро</a></li>
+                </ul>
+                </li>
+                <li class="li"><a class="a" href="#3">Подбор тура</a></li>
+                <li class="li"><a class="a" href="#4">Блог</a></li>
+                <li class="li"><a class="a"href="#5">Контакты</a></li>
+                </ul>
+                </nav>
+            <h2 class="Ph">Эверест</h2>
+            <div class="info text"><a href="#1">Подробнее</a></div>
+        </header> <!-- Верхняя часть страницы-->
+    </div>    
+    <main><!-- основная часть страницы-->
+        <section class="sect" id="1"><!-- о нас-->
+            <div class="pict"><img src="map11.jpg" alt=""></div>
+            <div class="inter"><h2>Туры с восхождением<br> на вершины мира</h2></div>
+            <div class="txt">
+                <p>
+                Мы являемся экспертами в организации<br>
+                альпинистких туров для опытных<br>
+                альпинистови для новичков. Вы можете<br>
+                доверить нам полную организацию<br> 
+                вашегоприключения от А до Я и быть<br> 
+                уверенными в качестве и безопасности<br>
+                восхождения.
+            </p>
+            <p> 
+                <br>
+                Наша компания предоставляет все <br> необходимое: консультацию по выбору<br> тура, перелет, визу, бронирование<br>
+                проживание, питание, оборудование<br> необходимое для восхождения,<br> опытных гидов, полное сопровождение.
+            </p>
+            </div>
+        </section>
+        <section id="2"><!-- туры-->
+
+        </section>
+        <section id="3" class="section3"><!-- Таблица-->
+                <h1 class="russ">Россия</h1>
+                  <p class="hover">
+                    <table align = "center" cellspacing="0" >
+                      <caption align="center" class="caption">
+                        Более 15 туров для <br> альпенистов всех уровней.
+                      </caption>
+                    <tr>
+                        <td class="td1">Вершина</td>
+                        <td class="td1">Высота</td>
+                        <td class="td1">Уровень</td>
+                        <td class="td1">Стоимость</td>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>Эльбрус</td>
+                            <td>5642 м</td>
+                            <td>Средний</td>
+                            <td class="tdmoney">От 25 000 $</td>
+                        </tr>
+                        <tr>
+                            <td>Казбек</td>
+                            <td>5033 м</td>
+                            <td>Сложный</td>
+                            <td class="tdmoney">От 30 000 $</td>
+                        </tr>
+                        <tr>
+                            <td>Белуха</td>
+                            <td>4506 м</td>
+                            <td>Простой</td>
+                            <td class="tdmoney">От 20 000 $</td>
+                        </tr>
+                        <tr>
+                            <td>Дыхтау</td>
+                            <td>5204 м</td>
+                            <td>Сложный</td>
+                            <td class="tdmoney">От 40 000 $</td>
+                        </tr>
+                    </tbody>                    
+                </p>
+                </table>
+                <button class="butt">Просмотреть все</button>
+        </section>
+        <article id="4"><!-- Блог-->
+
+        </article>
+        <aside><!-- Новостная лента-->
+
+        </aside>
+        <section class="anceta"><!-- Анкета-->
+           <div class="floatleft">
+            <h1 class="ht1">Нужна помощь с<br> выбором тура?</h1>
+            <p class="ht2">Заполните форму, наш менеджер свяжется с<br> вами в ближайшее время и подберет подходищий<br> тур.</p>
+            <form action="Untitled-1.php" method="POST">
+                <input type="name" name="Name" placeholder="Имя" required placeholder="Обязательное поле" pattern="[A-Яa-яЁё]{4,}"><br>
+                <p class="p-form">имя должно седержать не менее 4 букв русского алфавита</p>
+                <input type="tel" name="tel" placeholder="Номер" required placeholder="Обязательное поле" pattern="+([7]{1})-([0,9]{10})"><br>
+                <p class="p-form">формат записи: +7-ххх-ххххххх</p>
+                <input type="email" name="email" placeholder="E-Mail" required placeholder="Обязательное поле"><br>
+                <input class="submit" type="submit" name="submit" value="Отправить" >
+                <p class="p-form1">Нажимая на кнопку, вы соглашаетесь с условиями обработки<br> персональных данных.</p>
+             </form>                
+           </div>
+             <div class="print1"></div>                     
+        </section>
+        <section id="5" class="contacts sect"><!-- Контакты-->
+            <div  class="map">
+                <img src="mapoff.jpg">
+            </div>
+            <h2 class="con">Контакты</h2>
+            <ul>
+                <li class="small">Адрес:</li>
+                <li class="big">Санкт-Петербург,<br>ул.Большая Конюшенная, 19</li>
+                <li class="small">Телефон:</li>
+                <li class="big">8(800)777-33-25</li>
+                <li class="small">E-mail:</li>
+                <li class="big">info@mountain.ru</li>
+                <li class="small">Социальные сети:</li>
+                <div class="icon">
+                    <li class="fit"><img src="img/facebook_icon.svg"></li>
+                    <li class="fit"><img src="img/instagram_icon.svg"></li>
+                    <li class="fit"><img src="img/twitter_icon.svg"></li>
+                </div>
+            </ul> 
+        </section>
+    </main>
+    <div >
+        <footer class="foot">
+            <img class="foot_img" src="img/logo.svg">
+        </footer>
+    </div>
+    <!-- Нижняя часть страницы-->
+</body>
+</html>

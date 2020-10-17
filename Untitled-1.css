@@ -1,0 +1,327 @@
+html{
+    margin: -20px -10px -20px -10px;
+    background-color: white;
+    width: 100%;
+     }
+body{
+   width: 100%;
+}
+.imge{
+    background-repeat: no-repeat;
+    background-size: 100%;
+   background-image: url(walpaper.png);
+   height: 600px;
+   padding: 0px;
+   margin-bottom: 0px;
+   width: 100%;
+}
+.Ph{
+   text-align: center;
+   font-size: 90px;
+   font-family: Century Gothic;
+   color: white;
+}
+.info{
+   display: inline-block;
+   border: 2px solid white ;
+   width: 200px;
+   height: 20px;
+   margin: 10px 0 0 43%;
+   position: relative;
+}
+.text{
+   text-align: center;
+   font-size: 16px;
+   font-family: Century Gothic;
+   padding: 10px;  
+}
+a{
+   text-decoration: none;
+   color: white;
+   text-align: center;
+   }
+   nav{
+   margin-left: 20%;
+   }
+   /* убираем отступы и поля, а также list-style для "ul",
+   * и добавляем "position:relative" */
+   nav ul {
+   padding:0;
+   margin:0;
+   list-style: none;
+   position: relative;
+   }
+   .li{
+   width: 180px;
+   }
+   nav ul .li {
+   margin: 0px -7px 0 0;
+   display:inline-block;
+   }
+   nav .a {
+   display:block;
+   padding:0 10px;
+   color:#FFF;
+   font-size:20px;
+   line-height: 60px;
+   text-decoration:none;
+   }
+   nav .a:hover {
+   background: radial-gradient(ellipse at center, rgba(242,242,242,0.36) 0%,rgba(224,228,229,0.19) 48%,rgba(224,228,229,0.01) 100%);
+   }
+   nav ul ul {
+   display: none;
+   position: absolute;
+   top: 100%;
+   }
+   nav ul .li:hover > ul {
+   display:inherit;
+   }
+   nav ul ul .li {
+   float:none;
+   display:list-item;
+   position: relative;
+   }
+a{
+   text-decoration: none;
+    color: white;
+}
+.navig{
+   font-family: Century Gothic;
+   font-size: 14px;
+   padding-top: 5px;
+   padding-left: 0px;
+   padding-bottom: 5px;
+   padding-right: 0px;
+   width: 140px;
+   display: inline-block;
+   text-align: center;
+   margin-left: 7%;
+}
+.navig1{
+   font-family: Century Gothic;
+   font-size: 14px;
+   padding-top: 5px;
+   padding-left: 0px;
+   padding-bottom: 5px;
+   padding-right: 0px;
+   width: 140px;
+   display: inline-block;
+   text-align: center;
+   margin-left: 7%;
+}
+.navig:hover {   
+   background: radial-gradient(ellipse at center, rgba(242,242,242,0.36) 0%,rgba(224,228,229,0.19) 48%,rgba(224,228,229,0.01) 100%);
+}
+.navig1:hover {
+   background: radial-gradient(ellipse at center, rgba(242,242,242,0.36) 0%,rgba(224,228,229,0.19) 48%,rgba(224,228,229,0.01) 100%);
+}
+li {
+   list-style-type: none; /* Убираем маркеры */
+}
+.inter{
+   letter-spacing: 0.1px;
+   font-size: 40px;
+   font-family: Century Gothic;
+   padding: 30px 0 0 100px;
+}
+.txt{
+   font-size: 18px;
+   font-family: Helvetica;
+   line-height: 1,5px;
+   padding: 0 0 0 100px;
+}
+.pict{
+   float: right;
+   margin-top: 100px;
+}
+.contacts{
+   height: 550px;
+   margin-top: 50px;
+   padding-left: 30px;
+
+}
+.con{
+   font-size: 50px;
+   font-family: Century Gothic;
+   margin-bottom: 30px;
+}
+.map{
+   float: left;
+   margin-right: 70px;
+   padding-left: 75px;
+}
+.small{
+   font-family: Helvetica;
+   font-size: 16px;
+   margin-bottom: 25px;
+   line-height: 1.5px;
+}
+.big{
+   font-family: Helvetica;
+   font-size: 18px;
+   margin-bottom: 25px;
+}
+.fit{
+   display: inline-block;
+   letter-spacing: 50px;
+   margin-right: 50px;
+}
+.icon{
+   text-align: left;
+   margin-left: 70px;
+}
+.foot{
+   background-color: #071a29;
+   padding-top: 50px;
+   margin-top: 50px;
+   height: 80px;
+}
+.foot_img{
+   margin-left: 46%;
+}
+.russ {
+   padding-top: 30px;
+   font-size: 40px;
+   font-family: Century Gothic;
+   color: white;
+   text-align: center;
+}
+.caption{
+   color: white;
+   text-align: center;
+   margin-left: 0%;
+   margin-bottom: 3%;
+   font-family: Century Gothic;
+}
+table{
+   margin-right: 50px;
+   text-align: center;
+   width: 100%;
+}
+tbody{
+   font-family: Helvetica;
+   font-size: 20px;
+   color: white;
+}
+tr:hover {
+   color: red;
+}
+tr {
+   margin: 0px 100px;
+}
+.td1 {
+   width: 320px;
+   color: grey;
+   font-size: 20px;
+   border-bottom: 0.5 solid grey;
+}
+.tdmoney:hover {
+   text-decoration: underline;
+   color: red;
+}
+td {
+   padding-top: 35px;
+   padding-bottom: 15px;
+   margin-top: 50px;
+   width: 320px;
+   border-bottom: 2px solid grey;
+}
+.butt {
+  width: 150px;
+  height: 50px;
+  padding: 0px 20px;
+  margin-top: 47px;
+  text-align: center;
+  margin-left: 45%;
+  background: transparent;
+  border: 2px white solid;
+  font-family: Century Gothic;
+  border-radius: 70px 30px;
+  color: #ffffff;
+}
+.butt:hover{
+background-color: #060714;
+box-shadow: 0 5px 4px #000000;
+color: white;
+}
+.section3 {
+   background: url(back3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 730px;
+   margin-bottom: 100px;   
+}
+.anceta {
+   background-color: #071a29;
+   background-repeat: no-repeat;
+   height: 691px;
+   margin: 0%;
+   padding: 0%;
+}
+.print1 {
+   background: url(img/photo-33.jpg);
+   background-repeat:no-repeat;
+   height: 700px;
+   margin-left: 800px;
+}
+.ht1 {
+   margin-left: 100px;
+   float: left;
+   text-align: left;
+   font-family: Century Gothic;
+   width: 600px;
+   font-size: 50px;   
+   color: white;
+}
+.ht2 {
+   margin-left: 100px;
+   text-align: left;
+   font-family: Century Gothic;
+   width: 600px;
+   font-size: 16px;   
+   color: white;
+}
+.floatleft {
+   float: left;
+}
+input {
+   background-color: transparent;
+   color: grey;
+   font-family: Century Gothic;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   width: 450px;
+   margin-left: 100px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   font-size: 14px;
+   margin-bottom: 10px;
+}
+.p-form {
+   color: grey;
+   font-family: Century Ghotic;
+   width: 450px;
+   margin-left: 100px;
+   margin-top: 0.001px;
+   font-size: 13px;
+}
+.submit {
+   background-color: #ec5118;
+   font-size: 16px;
+   color: white;
+   width: 450px;
+   height: 50px;
+   font-family: Century Ghotic;
+   font-size: 16px;
+   margin-top: 100px;
+}
+.p-form1 {
+   color: white;
+   font-family: Century Ghotic;
+   width: 450px;
+   margin-left: 100px;
+   margin-top: 0.001px;
+   font-size: 14px;
+}
